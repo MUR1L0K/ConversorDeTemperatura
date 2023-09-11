@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <div>
+        <h1>Conversor de temperatura</h1>
+      </div>
+      <input
+        type="number"
+        id="temperatura"
+        class="temp"
+        placeholder="Temperatura"
+      />
+      <br />
+      <div id="radios">
+        <label for="cel">Celsius</label>
+        <input type="radio" name="type" id="cel" value="celsius" checked />
+        <label for="far">Farenheit</label>
+        <input type="radio" name="type" id="far" value="farenheit" />
+        <label for="kev">Kelvin</label>
+        <input type="radio" name="type" id="kev" value="kelvin" />
+        <br />
+      </div>
+      <button id="button">Converter</button>
+      <p id="texto"></p>
+    </div>
+  </body>
+</html>
